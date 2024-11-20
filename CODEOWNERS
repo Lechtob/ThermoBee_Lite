@@ -1,13 +1,13 @@
 # This file specifies code owners for different parts of the repository
 
 # By default, all files are owned by the core team
-*       @yourusername
+*       @lechtob
 
 # Firmware
-/firmware/      @firmwareteam
+/firmware/      @lechtob
 
 # Hardware
-/hardware/      @hardwareteam
+/hardware/      @lechtob
 
 # Documentation
-/docs/          @docsteam
+/docs/          @lechtob

@@ -24,7 +24,7 @@ We welcome suggestions for new features or improvements. Please open an issue an
 ### Submitting Pull Requests
 
 1. **Fork the Repository**: Create a personal fork of the repository on GitHub.
-2. **Create a Feature Branch**: Branch off from `dev` using a descriptive branch name (e.g., `feature/add-new-sensor`).
+2. **Create a Feature Branch**: Branch off from `dev` using a descriptive branch name (e.g., `feature/add-new-sensor`, `bug-fix/resolve-bug`).
 3. **Commit Your Changes**: Make sure your commits are clear and descriptive.
 4. **Push to Your Fork**: Push your feature branch to your GitHub fork.
 5. **Open a Pull Request**: Submit a pull request to the `dev` branch of the main repository.

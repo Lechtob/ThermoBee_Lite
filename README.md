@@ -1,5 +1,15 @@
 # ThermoBee Lite
 
+![Firmware Build Status](https://github.com/Lechtob/ThermoBee_Lite/workflows/Build%20and%20Test%20Firmware/badge.svg)
+![Hardware Build Status](https://github.com/Lechtob/ThermoBee_Lite/workflows/Build%20and%20Test%20Hardware/badge.svg)
+![Documentation Build Status](https://github.com/Lechtob/ThermoBee_Lite/workflows/Build%20and%20Deploy%20Documentation/badge.svg)
+![License](https://img.shields.io/github/license/Lechtob/ThermoBee_Lite)
+![GitHub stars](https://img.shields.io/github/stars/Lechtob/ThermoBee_Lite?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Lechtob/ThermoBee_Lite?style=social)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Lechtob/ThermoBee_Lite)
+![codecov](https://img.shields.io/codecov/c/github/Lechtob/ThermoBee_Lite)
+![GitHub issues](https://img.shields.io/github/issues/Lechtob/ThermoBee_Lite)
+
 **ThermoBee Lite** is a compact, energy-efficient ZigBee sensor for measuring temperature, humidity, air quality, and battery level. Designed to be compatible with Home Assistant, it aims to provide at least 6 months of battery life on a single battery.
 
 ## Features

@@ -11,7 +11,7 @@ We release patches for security vulnerabilities in the following versions:
 
 ## Reporting a Vulnerability
 
-To report a security vulnerability, please contact us at [security@example.com](mailto:security@example.com). We will coordinate with you to assess and address the issue promptly.
+To report a security vulnerability, please contact us at [tobiaslechenauer@gmail.com](mailto:tobiaslechenauer@gmail.com). We will coordinate with you to assess and address the issue promptly.
 
 ---
 
