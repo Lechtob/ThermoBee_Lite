@@ -1,0 +1,41 @@
+name: Hardware Design Checks
+
+on:
+  push:
+    branches:
+      - dev
+      - 'feature/**'
+    paths:
+      - 'hardware/**'
+  pull_request:
+    branches:
+      - dev
+    paths:
+      - 'hardware/**'
+
+jobs:
+  hardware_checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install KiCad
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-6.0-releases
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends kicad
+
+      - name: Run ERC (Electrical Rule Check)
+        run: |
+          kicad-cli sch check electrical ./hardware/Schematics/thermobee_schematic.kicad_sch
+
+      - name: Run DRC (Design Rule Check)
+        run: |
+          kicad-cli pcb check design ./hardware/PCB-Layouts/thermobee_pcb.kicad_pcb
+
+      - name: Generate Gerber Files
+        run: |
+          mkdir -p hardware/PCB-Layouts/gerbers
+          kicad-cli pcb export gerbers ./hardware/PCB-Layouts/thermobee_pcb.kicad_pcb --output-dir hardware/PCB-Layouts/gerbers
