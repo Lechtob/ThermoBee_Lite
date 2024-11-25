@@ -1,0 +1,62 @@
+# General
+
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# Firmware build artifacts
+
+/build/
+*.elf
+*.hex
+*.bin
+*.map
+*.obj
+*.o
+*.a
+*.d
+*.dep
+
+# Firmware IDE files
+
+.vscode/
+.idea/
+*.swp
+
+# Hardware files
+
+**/*.bak
+**/*.bck
+**/*.tmp
+**/*.net
+**/*.sch~
+**/*.kicad_pcb-bak
+**/*.kicad_pcb~
+
+# Gerber files and outputs
+
+hardware/PCB-Layouts/gerbers/
+hardware/PCB-Layouts/outputs/
+
+# Enclosure CAD temporary files
+
+*.autosave
+*.lock
+
+# Python bytecode
+
+__pycache__/
+*.pyc
+*.pyo
+
+# Documentation build files
+
+/site/
+docs/site/
+mkdocs.yml
+
+# Node modules (if any)
+
+node_modules/
